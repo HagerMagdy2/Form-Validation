@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(136deg,rgb(146,0,251),rgb(135,152,235),rgb(0,85,255));
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-box{
+  background: rgb(255,255,255);
+  padding: 40px 30px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+.main-box .sign-in{
+  font-size: 30px;
+  color: rgb(0,85,255);
+  margin-bottom: 20px;
+}
+input{
+  padding: 12px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 250px;
+  background-color: rgba(181, 178, 178, 0.202);
+  margin: 10px;
+}
+input[ type = "submit"]{
+background-color: rgb(0,85,255);
+color: white;
+font-size: 17px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.4s ease;
+}
+input[ type = "submit"]:hover{
+  border: 1px solid rgb(0,85,255);
+  color: rgb(0,85,255);
+  background-color: transparent;
+}
+#errorUser{
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  top: 36%;
+  left: 42px;
+  color: red;
+  transition: all 0.4s ease;
+}
+#errorEmail{
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  top: 51%;
+  left: 42px;
+  color: red;
+  transition: all 0.4s ease;
+}
+#errorPassword{
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  top: 65%;
+  left: 42px;
+  color: red;
+  transition: all 0.4s ease;
+}
+.forget{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 11px;
+  font-size: 14px;
+}
+.forget a{
+  text-decoration: none;
+  font-size: 14px;
+}
